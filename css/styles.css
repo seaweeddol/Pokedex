@@ -2,28 +2,51 @@ body {
   background: black;
 }
 
-.pokedex {
+.pokedexContainer {
   background: #dc0a2d;
-  height: 800px;
-  width: 600px;
+  height: 550px;
+  width: 400px;
   margin: 30px auto;
   border-radius: 40px 10px 10px 40px;
-  overflow: auto;
+  overflow: hidden;
 }
+
+/* .topButtons:before {
+  content: "";
+  width: 32%;
+  top: 30px;
+  border-width: 0 0px 81px;
+  border-style: solid;
+  border-color: white transparent;
+  position: absolute;
+  margin-left: 22%;
+}
+
+.topButtons {
+  border-style: solid;
+  border-color: transparent transparent white transparent;
+  border-width: 0 25px 25px 25px;
+  height: 0;
+  width: 50px;
+  box-sizing: content-box;
+  position: relative;
+  margin: 20px 0 50px 0;
+} */
 
 .topButtons {
   background: white;
   width: 100%;
-  height: 80px;
-  clip-path: polygon(0% 100%, 0% 0%, 100% 0%, 100% 50%, 40% 50%, 30% 100%);
+  height: 70px;
+  clip-path: polygon(0% 100%, 0% 0%, 100% 0%, 100% 50%, 45% 50%, 35% 100%);
   padding: 20px;
+  border-bottom: 7px solid black;
 }
 
 .bigBlueButtonBorder {
   background: white;
   border-radius: 50%;
-  width: 70px;
-  height: 70px;
+  width: 60px;
+  height: 60px;
   border: solid 2px black;
   padding: 5px;
   display: inline-block;
@@ -32,8 +55,8 @@ body {
 .bigBlueButtonInnerCircle {
   background: radial-gradient(circle at 0px 0px, #28aafd, #196a9e);
   border-radius: 50%;
-  width: 70px;
-  height: 70px;
+  width: 60px;
+  height: 60px;
   margin: 0 auto;
 }
 
@@ -43,15 +66,15 @@ body {
     background: radial-gradient(circle at 0px 0px, rgba(255, 255, 255, 0.5), #a1dafe 70%);
     border-radius: 50%;
     opacity: 0.6;
-    height: 60px;
-    width: 60px;
+    height: 50px;
+    width: 50px;
     -webkit-filter: blur(5px);
     z-index: 2;
 }
 
 .bigBlueButtonInnerCircle:after {
-  width: 60px;
-  height: 25px;
+  width: 50px;
+  height: 15px;
   content: "";
   position: absolute;
   border-radius: 50%;
@@ -67,8 +90,8 @@ body {
 .smallRedButton {
   background: radial-gradient(circle at 0px 0px, #f56981, #9e061f);
   border-radius: 50%;
-  width: 20px;
-  height: 20px;
+  width: 15px;
+  height: 15px;
   margin-left: 15px;
   border: solid 2px black;
   display: inline-block;
@@ -81,15 +104,15 @@ body {
     background: radial-gradient(circle at 0px 0px, rgba(255, 255, 255, 0.5), #f56981 70%);
     border-radius: 50%;
     opacity: 0.6;
-    height: 15px;
-    width: 15px;
+    height: 10px;
+    width: 10px;
     -webkit-filter: blur(5px);
     z-index: 2;
 }
 
 .smallRedButton:after {
-  width: 15px;
-  height: 15px;
+  width: 10px;
+  height: 10px;
   content: "";
   position: absolute;
   border-radius: 50%;
@@ -105,8 +128,8 @@ body {
 .smallYellowButton {
   background: radial-gradient(circle at 0px 0px, #feef8d, #a28e0f);
   border-radius: 50%;
-  width: 20px;
-  height: 20px;
+  width: 15px;
+  height: 15px;
   margin-left: 5px;
   border: solid 2px black;
   display: inline-block;
@@ -119,15 +142,15 @@ body {
     background: radial-gradient(circle at 0px 0px, rgba(255, 255, 255, 0.5), #feef8d 70%);
     border-radius: 50%;
     opacity: 0.6;
-    height: 15px;
-    width: 15px;
+    height: 10px;
+    width: 10px;
     -webkit-filter: blur(5px);
     z-index: 2;
 }
 
 .smallYellowButton:after {
-  width: 15px;
-  height: 15px;
+  width: 10px;
+  height: 10px;
   content: "";
   position: absolute;
   border-radius: 50%;
@@ -143,8 +166,8 @@ body {
 .smallGreenButton {
   background: radial-gradient(circle at 0px 0px, #8dc395, #316c3a);
   border-radius: 50%;
-  width: 20px;
-  height: 20px;
+  width: 15px;
+  height: 15px;
   margin-left: 5px;
   border: solid 2px black;
   display: inline-block;
@@ -157,15 +180,15 @@ body {
     background: radial-gradient(circle at 0px 0px, rgba(255, 255, 255, 0.5), #8dc395 70%);
     border-radius: 50%;
     opacity: 0.6;
-    height: 15px;
-    width: 15px;
+    height: 10px;
+    width: 10px;
     -webkit-filter: blur(5px);
     z-index: 2;
 }
 
 .smallGreenButton:after {
-  width: 15px;
-  height: 15px;
+  width: 10px;
+  height: 10px;
   content: "";
   position: absolute;
   border-radius: 50%;
@@ -176,4 +199,61 @@ body {
   -o-transform: skewX(-20deg);
   transform: skewX(-20deg);
   -webkit-filter: blur(2px);
+}
+
+.pokedexScreenContainer {
+  width: 80%;
+  height: 30%;
+  margin: 0 auto;
+  padding: 30px;
+}
+
+.pokedexScreenBorder {
+  background: #dedede;
+  height: 100%;
+  border-radius: 10px 10px 10px 50px;
+  padding: 35px;
+  border: 2px solid black;
+}
+
+.pokedexScreenSmallRedButton1 {
+  background: radial-gradient(circle at 0px 0px, #ff6881, #bd0323);
+  border-radius: 50%;
+  width: 7px;
+  height: 7px;
+  border: solid 2px black;
+  display: inline-block;
+  margin-top: -20px;
+  margin-left: 9%;
+  position: absolute;
+}
+
+.pokedexScreenSmallRedButton2 {
+  background: radial-gradient(circle at 0px 0px, #ff6881, #bd0323);
+  border-radius: 50%;
+  width: 7px;
+  height: 7px;
+  border: solid 2px black;
+  display: inline-block;
+  margin-top: -20px;
+  margin-left: 11%;
+  position: absolute;
+}
+
+.pokedexScreenBigRedButton {
+  background: radial-gradient(circle at 0px 0px, #ff6881, #bd0323);
+  border-radius: 50%;
+  width: 15px;
+  height: 15px;
+  border: solid 2px black;
+  display: inline-block;
+  margin-top: 5px;
+  position: absolute;
+}
+
+.pokedexScreen {
+  background: #232323;
+  border-radius: 5%;
+  height: 100%;
+  border: 2px solid black;
 }
