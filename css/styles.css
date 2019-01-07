@@ -1,0 +1,177 @@
+body {
+  background: black;
+}
+
+.pokedex {
+  background: #dc0a2d;
+  height: 800px;
+  width: 600px;
+  margin: 30px auto;
+  border-radius: 40px 10px 10px 40px;
+  overflow: auto;
+}
+
+.topButtons {
+  width: 100%;
+  background: white;
+  padding-left: 20px;
+}
+
+.bigBlueButtonBorder {
+  background: white;
+  border-radius: 50%;
+  width: 70px;
+  height: 70px;
+  border: solid 2px black;
+  padding: 5px;
+  display: inline-block;
+}
+
+.bigBlueButtonInnerCircle {
+  background: radial-gradient(circle at 0px 0px, #28aafd, #196a9e);
+  border-radius: 50%;
+  width: 70px;
+  height: 70px;
+  margin: 0 auto;
+}
+
+.bigBlueButtonInnerCircle:before {
+    content: "";
+    position: absolute;
+    background: radial-gradient(circle at 0px 0px, rgba(255, 255, 255, 0.5), #a1dafe 70%);
+    border-radius: 50%;
+    opacity: 0.6;
+    height: 60px;
+    width: 60px;
+    -webkit-filter: blur(5px);
+    z-index: 2;
+}
+
+.bigBlueButtonInnerCircle:after {
+  width: 60px;
+  height: 25px;
+  content: "";
+  position: absolute;
+  border-radius: 50%;
+  background: radial-gradient(circle at 0px 0px, white, white 14%, white 24%);
+  -webkit-transform: translateX(-80px) translateY(-90px) skewX(-20deg);
+  -moz-transform: skewX(-20deg);
+  -ms-transform: skewX(-20deg);
+  -o-transform: skewX(-20deg);
+  transform: skewX(-20deg);
+  -webkit-filter: blur(10px);
+}
+
+.smallRedButton {
+  background: radial-gradient(circle at 0px 0px, #f56981, #9e061f);
+  border-radius: 50%;
+  width: 20px;
+  height: 20px;
+  margin-left: 15px;
+  border: solid 2px black;
+  display: inline-block;
+  vertical-align: top;
+}
+
+.smallRedButton:before {
+    content: "";
+    position: absolute;
+    background: radial-gradient(circle at 0px 0px, rgba(255, 255, 255, 0.5), #f56981 70%);
+    border-radius: 50%;
+    opacity: 0.6;
+    height: 15px;
+    width: 15px;
+    -webkit-filter: blur(5px);
+    z-index: 2;
+}
+
+.smallRedButton:after {
+  width: 15px;
+  height: 15px;
+  content: "";
+  position: absolute;
+  border-radius: 50%;
+  background: radial-gradient(circle at 0px 0px, white, white 30%, #f4637c 60%);
+  -webkit-transform: translateX(-80px) translateY(-90px) skewX(-20deg);
+  -moz-transform: skewX(-20deg);
+  -ms-transform: skewX(-20deg);
+  -o-transform: skewX(-20deg);
+  transform: skewX(-20deg);
+  -webkit-filter: blur(2px);
+}
+
+.smallYellowButton {
+  background: radial-gradient(circle at 0px 0px, #feef8d, #a28e0f);
+  border-radius: 50%;
+  width: 20px;
+  height: 20px;
+  margin-left: 5px;
+  border: solid 2px black;
+  display: inline-block;
+  vertical-align: top;
+}
+
+.smallYellowButton:before {
+    content: "";
+    position: absolute;
+    background: radial-gradient(circle at 0px 0px, rgba(255, 255, 255, 0.5), #feef8d 70%);
+    border-radius: 50%;
+    opacity: 0.6;
+    height: 15px;
+    width: 15px;
+    -webkit-filter: blur(5px);
+    z-index: 2;
+}
+
+.smallYellowButton:after {
+  width: 15px;
+  height: 15px;
+  content: "";
+  position: absolute;
+  border-radius: 50%;
+  background: radial-gradient(circle at 0px 0px, white, white 30%, #feef8d 60%);
+  -webkit-transform: translateX(-80px) translateY(-90px) skewX(-20deg);
+  -moz-transform: skewX(-20deg);
+  -ms-transform: skewX(-20deg);
+  -o-transform: skewX(-20deg);
+  transform: skewX(-20deg);
+  -webkit-filter: blur(2px);
+}
+
+.smallGreenButton {
+  background: radial-gradient(circle at 0px 0px, #8dc395, #316c3a);
+  border-radius: 50%;
+  width: 20px;
+  height: 20px;
+  margin-left: 5px;
+  border: solid 2px black;
+  display: inline-block;
+  vertical-align: top;
+}
+
+.smallGreenButton:before {
+    content: "";
+    position: absolute;
+    background: radial-gradient(circle at 0px 0px, rgba(255, 255, 255, 0.5), #8dc395 70%);
+    border-radius: 50%;
+    opacity: 0.6;
+    height: 15px;
+    width: 15px;
+    -webkit-filter: blur(5px);
+    z-index: 2;
+}
+
+.smallGreenButton:after {
+  width: 15px;
+  height: 15px;
+  content: "";
+  position: absolute;
+  border-radius: 50%;
+  background: radial-gradient(circle at 0px 0px, white, white 30%, #8dc395 60%);
+  -webkit-transform: translateX(-80px) translateY(-90px) skewX(-20deg);
+  -moz-transform: skewX(-20deg);
+  -ms-transform: skewX(-20deg);
+  -o-transform: skewX(-20deg);
+  transform: skewX(-20deg);
+  -webkit-filter: blur(2px);
+}
