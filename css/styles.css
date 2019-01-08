@@ -25,6 +25,7 @@ button {
   border-radius: 40px 10px 10px 40px;
   overflow: hidden;
   display: inline-block;
+  box-shadow: 2px 15px 2px #89061c;
 }
 
 /* .topButtons:before {
@@ -233,19 +234,23 @@ button {
   border: 2px solid black;
 }
 
-.pokemonDisplayRedLight1 {
+.pokemonDisplayTopLights {
+  display: flex;
+  justify-content: center;
+  margin-top: -29px;
+  margin-bottom: 5px;
+}
+
+.pokemonDisplayRedLight {
   background: radial-gradient(circle at 0px 0px, #ff6881, #bd0323);
   border-radius: 50%;
   width: 7px;
   height: 7px;
   border: solid 2px black;
-  display: inline-block;
-  margin-top: -25px;
-  margin-left: 9%;
-  position: absolute;
+  margin: 5px;
 }
 
-.pokemonDisplayRedLight2 {
+/* .pokemonDisplayRedLight2 {
   background: radial-gradient(circle at 0px 0px, #ff6881, #bd0323);
   border-radius: 50%;
   width: 7px;
@@ -255,7 +260,7 @@ button {
   margin-top: -25px;
   margin-left: 11%;
   position: absolute;
-}
+} */
 
 .pokemonDisplayBigRedLight {
   background: radial-gradient(circle at 0px 0px, #ff6881, #bd0323);
@@ -276,6 +281,10 @@ button {
   -webkit-box-shadow: inset 0 0 20px #aaaaaa;
   box-shadow:         inset 0 0 20px #aaaaaa;
   font-family: 'VT323', monospace;
+  text-align: center;
+}
+
+.pokemonSprite {
 }
 
 .pokemonDisplaySpeaker {
@@ -346,8 +355,12 @@ button {
 
 .pokemonNameDisplay {
   font-family: 'VT323', monospace;
+  font-size: 1.5em;
+  text-transform: uppercase;
+  text-align: center;
   width: 34%;
   height: 70px;
+  padding: 5px;
   background: #51ae5f;
   border: 2px solid black;
   border-radius: 10%;
@@ -398,7 +411,7 @@ button {
   border-radius: 17px;
   display: inline-block;
   position: absolute;
-  height: 495px;
+  height: 506px;
   margin-top: 75px;
   margin-left: -1.5%;
   z-index: 5;
@@ -435,6 +448,9 @@ button {
   margin-top: -70%;
   border-top: 3px solid #49030f;
   position: absolute;
+  border-bottom: 1px solid #49030f;
+  border-left: 1px solid #49030f;
+  border-right: 1px solid #49030f;
 }
 
 .pokedexContainerRight {
@@ -443,8 +459,9 @@ button {
   width: 400px;
   margin: 30px auto;
   border-radius: 0 0 40px 0;
-  overflow: hidden;
   display: inline-block;
+  position: absolute;
+  box-shadow: 6px 10px 2px #89061c;
 }
 
 .topEmptySpace {
@@ -457,6 +474,8 @@ button {
 
 .descriptionDisplay {
   font-family: 'VT323', monospace;
+  color: white;
+  font-size: 1.3em;
   width: 75%;
   height: 125px;
   margin: 40px 40px 15px;
@@ -535,7 +554,7 @@ button {
 
 .pokedexInput input {
   font-family: 'VT323', monospace;
-  font-size: 1.5em;
+  font-size: 1.2em;
   margin: -10px 40px;
   width: 35%;
   height: 25px;
@@ -569,8 +588,15 @@ button {
 .typeDisplay {
   width: 42%;
   height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   background: black;
   font-family: 'VT323', monospace;
+  font-size: 2em;
+  text-transform: uppercase;
+  text-align: center;
+  color: white;
   background: #232323;
   padding: 5px;
   border-radius: 10px;
