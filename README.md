@@ -9,6 +9,7 @@ Pokedex layout has been built out with static placeholder details. No javascript
 - Allow users to search Pokedex with a name or number
 - Functioning number buttons to allow user input
 - Connect to [PokéAPI](https://pokeapi.co/) to update Pokemon image, name, description, and type based on user input
+- Add styling for when buttons are pressed or hovered
 
 # Work to be done (eventually)
 - Round corners and add a border to the top
