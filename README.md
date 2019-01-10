@@ -5,6 +5,10 @@ https://seaweeddol.github.io/Pokedex/
 # Current Version
 Pokedex layout has been built out with static placeholder details. No javascript has been implemented yet.
 
+# What did I learn from this project?
+- How to make complex shapes only with CSS
+- Became more familiar with positioning and styling elements
+
 # Work to be done (priority)
 - Allow users to search Pokedex with a name or number
 - Functioning number buttons to allow user input
