@@ -413,7 +413,7 @@ button {
   position: absolute;
   height: 506px;
   margin-top: 75px;
-  margin-left: -1.5%;
+  margin-left: -1%;
   z-index: 5;
 }
 
@@ -512,6 +512,14 @@ button {
   box-shadow: 3px 5px 3px #363636;
 }
 
+.numberButton:hover {
+  background: rgb(40, 170, 253);
+}
+
+.numberButton:active {
+  background: rgba(33, 142, 211, 1);
+}
+
 .numberButton:before {
   content: "";
   position: absolute;
@@ -531,7 +539,7 @@ button {
   margin: 10px 25px;
 }
 
-.submitData {
+.submitButton {
   width: 45%;
   border-radius: 10px;
   background: #418e4d;
@@ -542,14 +550,24 @@ button {
   box-shadow: 2px 3px 5px black;
 }
 
-.clearData {
+.submitButton:active {
+  height: 9px;
+  background: #316b3a;
+}
+
+.clearButton {
   width: 45%;
   border-radius: 10px;
-  background: #a20620;
+  background: radial-gradient(circle at 0px 0px, #cc0a2a, #a20620);
   height: 10px;
   border: 2px solid black;
   display: inline-block;
   box-shadow: 2px 3px 5px black;
+}
+
+.clearButton:active {
+  height: 9px;
+  background: #750417;
 }
 
 .pokedexInput input {
