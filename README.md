@@ -1,9 +1,9 @@
 # Pokedex
-This will be a Pokedex web application with search functionality built with css and javascript.
+Pokedex built with CSS. Connection to Pokemon database and search functionality to be added.
 https://seaweeddol.github.io/Pokedex/
 
 # Current Version
-Pokedex layout has been built out with static placeholder details. No javascript has been implemented yet.
+Pokedex layout has been built out with static placeholder details. Number buttons and clear button are functional, but no data is being pulled in yet.
 
 # What did I learn from this project?
 - How to make complex shapes only with CSS
@@ -11,9 +11,9 @@ Pokedex layout has been built out with static placeholder details. No javascript
 
 # Work to be done (priority)
 - Allow users to search Pokedex with a name or number
-- Functioning number buttons to allow user input
+- ~~Functioning number buttons to allow user input~~
 - Connect to [PokéAPI](https://pokeapi.co/) to update Pokemon image, name, description, and type based on user input
-- Add styling for when buttons are pressed or hovered
+- ~~Add styling for when buttons are pressed or hovered~~
 
 # Work to be done (eventually)
 - Round corners and add a border to the top
