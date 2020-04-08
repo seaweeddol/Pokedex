@@ -2,7 +2,7 @@ body {
   background: black;
 }
 
-.pokedex {
+#pokedex {
   margin: 0 auto;
   display: block;
   width: 820px;
@@ -12,12 +12,12 @@ button {
   outline: none;
 }
 
-.pokedexContainer {
+/* .pokedexContainer {
   width: 100%;
   margin: 0 auto;
-}
+} */
 
-.pokedexContainerLeft {
+#left {
   background: #dc0a2d;
   height: 550px;
   width: 400px;
@@ -218,7 +218,7 @@ button {
   -webkit-filter: blur(2px);
 }
 
-.pokemonDisplayContainer {
+#imgDisplay {
   width: 80%;
   height: 30%;
   margin: 0 auto;
@@ -226,7 +226,7 @@ button {
   margin-bottom: 55px;
 }
 
-.pokemonDisplayBorder {
+#imgDisplay > .border {
   background: #dedede;
   height: 100%;
   border-radius: 10px 10px 10px 50px;
@@ -234,14 +234,14 @@ button {
   border: 2px solid black;
 }
 
-.pokemonDisplayTopLights {
+#imgDisplay .topLights {
   display: flex;
   justify-content: center;
   margin-top: -29px;
   margin-bottom: 5px;
 }
 
-.pokemonDisplayRedLight {
+#imgDisplay .topLights > .light {
   background: radial-gradient(circle at 0px 0px, #ff6881, #bd0323);
   border-radius: 50%;
   width: 7px;
@@ -262,7 +262,7 @@ button {
   position: absolute;
 } */
 
-.pokemonDisplayBigRedLight {
+#imgDisplay .big {
   background: radial-gradient(circle at 0px 0px, #ff6881, #bd0323);
   border-radius: 50%;
   width: 15px;
@@ -272,7 +272,7 @@ button {
   margin-top: 8px;
 }
 
-.pokemonDisplay {
+.pokemonImg {
   background: #232323;
   border-radius: 5%;
   height: 100%;
@@ -287,13 +287,13 @@ button {
 .pokemonSprite {
 }
 
-.pokemonDisplaySpeaker {
+#imgDisplay .speaker {
   width: 15%;
   margin-top: -22px;
   margin-left: 85%;
 }
 
-.pokemonDisplayLines {
+#imgDisplay .speaker > .line {
   background: black;
   width: 100%;
   height: 2px;
@@ -301,7 +301,7 @@ button {
   border-radius: 40%;
 }
 
-.bottomContainer {
+#left > .bottom {
   width: 85%;
   padding: 15px 30px;
   height: 22%;
@@ -353,7 +353,7 @@ button {
   box-shadow: 1px 3px 1px #062637;
 }
 
-.pokemonNameDisplay {
+.nameDisplay {
   font-family: 'VT323', monospace;
   font-size: 1.5em;
   text-transform: uppercase;
@@ -371,14 +371,14 @@ button {
   box-shadow:         inset 0 0 10px #000000;
 }
 
-.dPad {
+#dPad {
   width: 100px;
   height: 100px;
   float: right;
   margin-top: -95px;
 }
 
-.dPadUp {
+#dPad > .up {
   margin: 0 auto;
   background: #00312b;
   height: 33px;
@@ -387,7 +387,7 @@ button {
   box-shadow: 3px 2px 1px black;
   }
 
-.dPadMiddle {
+  #dPad > .middle {
   background: #00312b;
   height: 33px;
   width: 100%;
@@ -395,7 +395,7 @@ button {
   box-shadow: 3px 4px 1px black;
 }
 
-.dPadDown {
+#dPad > .down {
   margin: 0 auto;
   background: #00312b;
   height: 33px;
@@ -404,7 +404,7 @@ button {
   box-shadow: 3px 3px 1px black;
 }
 
-.pokedexHinge {
+#hinge {
   width: 35px;
   background: rgb(220,10,45);
   background: linear-gradient(90deg, rgba(220,10,45,1) 0%, rgba(233,102,124,1) 17%, rgba(220,10,45,1) 35%, rgba(137,6,28,1) 68%);
@@ -417,7 +417,7 @@ button {
   z-index: 5;
 }
 
-.pokedexHingeMiddle {
+#hinge > .middle {
   width: 35px;
   background: rgb(220,10,45);
   background: linear-gradient(90deg, rgba(220,10,45,1) 0%, rgba(233,102,124,1) 17%, rgba(220,10,45,1) 35%, rgba(137,6,28,1) 68%);
@@ -428,7 +428,7 @@ button {
   margin-top: 75%;
 }
 
-.pokedexHingeBottom1 {
+#hinge > .bottom1 {
   width: 35px;
   background: rgb(220,10,45);
   background: linear-gradient(90deg, rgba(220,10,45,1) 0%, rgba(233,102,124,1) 17%, rgba(220,10,45,1) 35%, rgba(137,6,28,1) 68%);
@@ -439,7 +439,7 @@ button {
   border-top: 3px solid #49030f;
 }
 
-.pokedexHingeBottom2 {
+#hinge > .bottom2 {
   width: 35px;
   background: #89061c;
   border-radius: 50%;
@@ -453,7 +453,7 @@ button {
   border-right: 1px solid #49030f;
 }
 
-.pokedexContainerRight {
+#right {
   background: #dc0a2d;
   height: 550px;
   width: 400px;
@@ -464,7 +464,7 @@ button {
   box-shadow: 6px 10px 2px #89061c;
 }
 
-.topEmptySpace {
+#right > .emptyTop {
   background: black;
   width: 100%;
   height: 70px;
@@ -472,7 +472,7 @@ button {
   padding: 20px;
 }
 
-.descriptionDisplay {
+#description {
   font-family: 'VT323', monospace;
   color: white;
   font-size: 1.3em;
@@ -488,7 +488,7 @@ button {
   box-shadow:         inset 0 0 15px #aaaaaa;
 }
 
-.numberButtonContainer {
+#numbers {
   margin: 0px 40px;
   background: rgb(40,170,253);
   width: 82%;
@@ -499,7 +499,7 @@ button {
   box-shadow: 3px 5px 3px #363636;
 }
 
-.numberButton {
+#numbers > button {
   font-family: 'VT323', monospace;
   font-size: 1.5em;
   width: 20%;
@@ -512,15 +512,15 @@ button {
   box-shadow: 3px 5px 3px #363636;
 }
 
-.numberButton:hover {
+#numbers > button:hover {
   background: rgb(40, 170, 253);
 }
 
-.numberButton:active {
+#numbers > button:active {
   background: rgba(33, 142, 211, 1);
 }
 
-.numberButton:before {
+#numbers > button:before {
   content: "";
   position: absolute;
   background: radial-gradient(circle at 0px 0px, rgba(255, 255, 234, 0.5), #a1dafe 70%);
@@ -533,13 +533,13 @@ button {
   margin-top: -7px;
 }
 
-.dataButtons {
+#dataButtons {
   width: 30%;
   float: right;
   margin: 10px 25px;
 }
 
-.submitButton {
+#submit {
   width: 45%;
   border-radius: 10px;
   background: #418e4d;
@@ -550,12 +550,12 @@ button {
   box-shadow: 2px 3px 5px black;
 }
 
-.submitButton:active {
+#submit:active {
   height: 9px;
   background: #316b3a;
 }
 
-.clearButton {
+#clear {
   width: 45%;
   border-radius: 10px;
   background: radial-gradient(circle at 0px 0px, #cc0a2a, #a20620);
@@ -565,7 +565,7 @@ button {
   box-shadow: 2px 3px 5px black;
 }
 
-.clearButton:active {
+#clear:active {
   height: 9px;
   background: #750417;
 }
@@ -595,7 +595,7 @@ button {
   border: 2px solid black;
 }
 
-.typeDisplayContainer {
+#typeDisplay {
   margin: 30px 40px;
   width: 82%;
   height: 40px;
@@ -603,7 +603,7 @@ button {
   justify-content: space-between;
 }
 
-.typeDisplay {
+#typeDisplay > div {
   width: 42%;
   height: 100%;
   display: flex;

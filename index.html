@@ -9,108 +9,101 @@
     </style>
   </head>
   <body>
-    <div class="pokedex">
-      <div class="pokedexContainer">
-
-        <div class="pokedexContainerLeft">
-
-          <div class="topContainer">
-            <div class="blueLightBorder">
-              <div class="blueLightCircle"></div>
-            </div>
-            <div class="redLight"></div>
-            <div class="yellowLight"></div>
-            <div class="greenLight"></div>
+    <main id="pokedex">
+      <section id="left">
+        <div class="topContainer">
+          <div class="blueLightBorder">
+            <div class="blueLightCircle"></div>
           </div>
+          <div class="redLight"></div>
+          <div class="yellowLight"></div>
+          <div class="greenLight"></div>
+        </div>
 
-          <div class="pokemonDisplayContainer">
-            <div class="pokemonDisplayBorder">
-              <div class="pokemonDisplayTopLights">
-                <div class="pokemonDisplayRedLight"></div>
-                <div class="pokemonDisplayRedLight"></div>
-              </div>
-              <div class="pokemonDisplay">
-                <img class="pokemonSprite" src="http://i.imgur.com/F7VElmC.png" alt="">
-              </div>
-              <div class="pokemonDisplayBigRedLight"></div>
-
-              <div class="pokemonDisplaySpeaker">
-                <div class="pokemonDisplayLines"></div>
-                <div class="pokemonDisplayLines"></div>
-                <div class="pokemonDisplayLines"></div>
-                <div class="pokemonDisplayLines"></div>
-              </div>
+        <div id="imgDisplay">
+          <div class="border">
+            <div class="topLights">
+              <div class="light"></div>
+              <div class="light"></div>
             </div>
-          </div>
-
-          <div class="bottomContainer">
-            <div class="blackButton"></div>
-            <div class="redButton"></div>
-            <div class="blueButton"></div>
-            <div class="pokemonNameDisplay">
+            <div class="pokemonImg">
+              <img class="pokemonSprite" src="http://i.imgur.com/F7VElmC.png" alt="">
             </div>
-            <div class="dPad">
-              <div class="dPadUp"></div>
-              <div class="dPadMiddle"></div>
-              <div class="dPadDown"></div>
-            </div>
+            <div class="big light"></div>
 
+            <div class="speaker">
+              <div class="line"></div>
+              <div class="line"></div>
+              <div class="line"></div>
+              <div class="line"></div>
+            </div>
           </div>
         </div>
 
-        <div class="pokedexHinge">
-          <div class="pokedexHingeMiddle"></div>
-          <div class="pokedexHingeBottom1"></div>
-          <div class="pokedexHingeBottom2"></div>
-        </div>
-
-        <div class="pokedexContainerRight">
-          <div class="topEmptySpace">
+        <div class="bottom">
+          <div class="blackButton"></div>
+          <div class="redButton"></div>
+          <div class="blueButton"></div>
+          <div class="nameDisplay">
           </div>
-
-          <div class="descriptionDisplay">
-            This legendary Chinese Pokémon is considered magnificent. Many people are enchanted by its grand mane.
-          </div>
-
-          <div class="numberButtonContainer">
-            <button class="numberButton" type="button" name="button">1</button>
-            <button class="numberButton" type="button" name="button">2</button>
-            <button class="numberButton" type="button" name="button">3</button>
-            <button class="numberButton" type="button" name="button">4</button>
-            <button class="numberButton" type="button" name="button">5</button>
-            <button class="numberButton" type="button" name="button">6</button>
-            <button class="numberButton" type="button" name="button">7</button>
-            <button class="numberButton" type="button" name="button">8</button>
-            <button class="numberButton" type="button" name="button">9</button>
-            <button class="numberButton" type="button" name="button">0</button>
-          </div>
-
-          <div class="dataButtons">
-            <button class="submitButton" type="button" name="button"></button>
-            <button class="clearButton" type="button" name="button"></button>
-          </div>
-
-          <div class="pokedexInput">
-            <input type="text" name="" value="" placeholder="search pokedex">
-          </div>
-
-          <div class="bigYellowLight">
-          </div>
-
-          <div class="typeDisplayContainer">
-            <div class="typeDisplay typeOneDisplay">
-              Fire
-            </div>
-
-            <div class="typeDisplay typeTwoDisplay">
-            </div>
-          </div>
-
+          <div id="dPad">
+            <div class="up"></div>
+            <div class="middle"></div>
+            <div class="down"></div>
           </div>
 
         </div>
+      </section>
 
-    </div>
+      <section id="hinge">
+        <div class="middle"></div>
+        <div class="bottom1"></div>
+        <div class="bottom2"></div>
+      </section>
+
+      <section id="right">
+        <div class="emptyTop">
+        </div>
+
+        <div id="description">
+          This legendary Chinese Pokémon is considered magnificent. Many people are enchanted by its grand mane.
+        </div>
+
+        <section id="numbers">
+          <button type="button" name="button">1</button>
+          <button type="button" name="button">2</button>
+          <button type="button" name="button">3</button>
+          <button type="button" name="button">4</button>
+          <button type="button" name="button">5</button>
+          <button type="button" name="button">6</button>
+          <button type="button" name="button">7</button>
+          <button type="button" name="button">8</button>
+          <button type="button" name="button">9</button>
+          <button type="button" name="button">0</button>
+        </section>
+
+        <div id="dataButtons">
+          <button id="submit" type="button" name="button"></button>
+          <button id="clear" type="button" name="button"></button>
+        </div>
+
+        <div class="pokedexInput">
+          <input type="text" name="" value="" placeholder="search pokedex">
+        </div>
+
+        <div class="bigYellowLight">
+        </div>
+
+        <section id="typeDisplay">
+          <div class="typeOne">
+            Fire
+          </div>
+          <div class="typeTwo">
+          </div>
+        </section>
+
+        </section>
+      </main>
 
     <script src="scripts/script.js" charset="utf-8"></script>
   </body>
