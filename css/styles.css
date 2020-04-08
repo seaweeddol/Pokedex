@@ -18,11 +18,15 @@ button {
   margin: 0 auto;
 } */
 
-#left {
+.side {
   background: #dc0a2d;
   height: 550px;
   width: 400px;
   margin: 30px auto;
+  display: inline-block;
+}
+
+#left {
   border-radius: 40px 10px 10px 40px;
   overflow: hidden;
   display: inline-block;
@@ -56,6 +60,9 @@ button {
 }
 
 .darkInset {
+  color: white;
+  border-radius: 10px;
+  background: #232323;
   -moz-box-shadow: inset 0 0 15px #aaaaaa;
   -webkit-box-shadow: inset 0 0 15px #aaaaaa;
   box-shadow: inset 0 0 15px #aaaaaa;
@@ -232,8 +239,6 @@ button {
 }
 
 .pokemonImg {
-  background: #232323;
-  border-radius: 5%;
   height: 100%;
   text-align: center;
 }
@@ -400,12 +405,7 @@ button {
 }
 
 #right {
-  background: #dc0a2d;
-  height: 550px;
-  width: 400px;
-  margin: 30px auto;
   border-radius: 0 0 40px 0;
-  display: inline-block;
   position: absolute;
   box-shadow: 6px 10px 2px #89061c;
 }
@@ -481,14 +481,17 @@ button {
   margin: 10px 25px;
 }
 
-#submit {
+#dataButtons > button {
   width: 45%;
   border-radius: 10px;
-  background: #418e4d;
   height: 10px;
   display: inline-block;
-  margin-right: 5px;
   box-shadow: 2px 3px 5px black;
+}
+
+#submit {
+  background: #418e4d;
+  margin-right: 5px;
 }
 
 #submit:active {
@@ -497,12 +500,7 @@ button {
 }
 
 #clear {
-  width: 45%;
-  border-radius: 10px;
   background: radial-gradient(circle at 0px 0px, #cc0a2a, #a20620);
-  height: 10px;
-  display: inline-block;
-  box-shadow: 2px 3px 5px black;
 }
 
 #clear:active {
@@ -547,12 +545,7 @@ button {
   display: flex;
   align-items: center;
   justify-content: center;
-  background: black;
   font-size: 2em;
   text-transform: uppercase;
   text-align: center;
-  color: white;
-  background: #232323;
-  padding: 5px;
-  border-radius: 10px;
 }
