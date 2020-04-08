@@ -1,5 +1,6 @@
 body {
   background: black;
+  font-family: 'VT323', monospace;
 }
 
 #pokedex {
@@ -234,7 +235,6 @@ button {
   background: #232323;
   border-radius: 5%;
   height: 100%;
-  font-family: 'VT323', monospace;
   text-align: center;
 }
 
@@ -306,7 +306,6 @@ button {
 }
 
 .nameDisplay {
-  font-family: 'VT323', monospace;
   font-size: 1.5em;
   text-transform: uppercase;
   text-align: center;
@@ -420,7 +419,6 @@ button {
 }
 
 #description {
-  font-family: 'VT323', monospace;
   color: white;
   font-size: 1.3em;
   width: 75%;
@@ -432,6 +430,8 @@ button {
 }
 
 #numbers {
+  display: flex;
+  flex-wrap: wrap;
   margin: 0px 40px;
   background: rgb(40,170,253);
   width: 82%;
@@ -445,8 +445,8 @@ button {
 #numbers > button {
   font-family: 'VT323', monospace;
   font-size: 1.5em;
-  width: 20%;
-  background: rgb(29,117,173);
+  flex: 1 0 20%;
+    background: rgb(29,117,173);
   background: linear-gradient(43deg, rgba(29,117,173,1) 0%, rgba(40,170,253,1) 50%, rgba(255,255,255,1) 100%);
   border: 1px solid black;
   padding: 0px;
@@ -548,7 +548,6 @@ button {
   align-items: center;
   justify-content: center;
   background: black;
-  font-family: 'VT323', monospace;
   font-size: 2em;
   text-transform: uppercase;
   text-align: center;
