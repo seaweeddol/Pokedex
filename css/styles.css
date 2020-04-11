@@ -7,6 +7,11 @@ body {
   margin: 0 auto;
   display: block;
   width: 820px;
+  display: flex;
+}
+
+#pokedex > * {
+  /* margin-left: -10px; */
 }
 
 button {
@@ -29,7 +34,6 @@ button {
 #left {
   border-radius: 40px 10px 10px 40px;
   overflow: hidden;
-  display: inline-block;
   box-shadow: 2px 15px 2px #89061c;
 }
 
@@ -333,18 +337,21 @@ button {
   margin-top: -95px;
 }
 
-#dPad > .up {
-  margin: 0 auto;
-  background: #00312b;
+#dPad > div {
   height: 33px;
   width: 33px;
+  background: #00312b;
+
+}
+
+#dPad > .up {
+  margin: 0 auto;
   border-radius: 20% 20% 0 0;
   box-shadow: 3px 2px 1px black;
   }
 
   #dPad > .middle {
   background: #00312b;
-  height: 33px;
   width: 100%;
   border-radius: 10%;
   box-shadow: 3px 4px 1px black;
@@ -353,8 +360,6 @@ button {
 #dPad > .down {
   margin: 0 auto;
   background: #00312b;
-  height: 33px;
-  width: 33px;
   border-radius: 0 0 20% 20%;
   box-shadow: 3px 3px 1px black;
 }
@@ -365,10 +370,9 @@ button {
   background: linear-gradient(90deg, rgba(220,10,45,1) 0%, rgba(233,102,124,1) 17%, rgba(220,10,45,1) 35%, rgba(137,6,28,1) 68%);
   border-radius: 17px;
   display: inline-block;
-  position: absolute;
   height: 506px;
   margin-top: 75px;
-  margin-left: -1%;
+  margin-left: -20px;
   z-index: 5;
 }
 
@@ -393,21 +397,19 @@ button {
 }
 
 #hinge > .bottom2 {
-  width: 35px;
+  width: 33px;
   background: #89061c;
-  display: inline-block;
-  height: 4%;
-  margin-top: -70%;
+  height: 3%;
+  margin-top: -2%;
   border-width: 3px 1px 1px 1px;
   border-style: solid;
   border-color: #49030f;
   position: absolute;
 }
-
 #right {
   border-radius: 0 0 40px 0;
-  position: absolute;
   box-shadow: 6px 10px 2px #89061c;
+  margin-left: -20px;
 }
 
 #right > .emptyTop {
@@ -534,14 +536,13 @@ button {
 #typeDisplay {
   margin: 30px 40px;
   width: 82%;
-  height: 40px;
+  height: 50px;
   display: flex;
   justify-content: space-between;
 }
 
 #typeDisplay > div {
   width: 42%;
-  height: 100%;
   display: flex;
   align-items: center;
   justify-content: center;
