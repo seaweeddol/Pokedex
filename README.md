@@ -18,6 +18,7 @@ A functioning Pokedex!
 - Handle invalid input
 - Implement better solution for caching (currently 'caching' with a hash)
 - Add Pokedex sounds
+- Remove 0s from front upon submit
 
 # Work to be done (eventually)
 - Make responsive for mobile devices
