@@ -3,7 +3,7 @@ Pokedex built with CSS. Connection to Pokemon database and search functionality 
 https://seaweeddol.github.io/Pokedex/
 
 # Current Version
-Pokedex layout has been built out with static placeholder details. Number buttons and clear button are functional, but no data is being pulled in yet.
+A functioning Pokedex!
 
 # What did I learn from this project?
 - How to make complex shapes only with CSS
