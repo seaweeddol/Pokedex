@@ -1,5 +1,5 @@
 # Pokedex
-Pokedex built with CSS. Connection to Pokemon database and search functionality to be added.
+Pokedex built with HTML and CSS which connects to PokéAPI
 https://seaweeddol.github.io/Pokedex/
 
 # Current Version
