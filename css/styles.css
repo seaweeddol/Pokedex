@@ -224,7 +224,7 @@ button {
   margin: 5px;
 }
 
-/* .pokemonDisplayRedLight2 {
+/* .pkmnDisplayRedLight2 {
   background: radial-gradient(circle at 0px 0px, #ff6881, #bd0323);
   width: 7px;
   height: 7px;
@@ -242,12 +242,13 @@ button {
   margin-top: 8px;
 }
 
-.pokemonImg {
+.pkmnImg {
   height: 100%;
   text-align: center;
 }
 
-.pokemonSprite {
+.pkmnSprite {
+  height: 100%;
 }
 
 #imgDisplay .speaker {
@@ -314,7 +315,7 @@ button {
   margin-right: 20px;
 }
 
-.nameDisplay {
+#nameDisplay {
   font-size: 1.5em;
   text-transform: uppercase;
   text-align: center;
@@ -420,7 +421,7 @@ button {
   padding: 20px;
 }
 
-#description {
+#pkmnDescription {
   color: white;
   font-size: 1.3em;
   width: 75%;
