@@ -6,7 +6,7 @@ https://seaweeddol.github.io/Pokedex/
 A functioning Pokedex!
 
 # What did I learn from this project?
-- How to make complex shapes only with CSS
+- How to make complex shapes using only CSS
 - Became more familiar with positioning and styling elements
 - Learned how to make API calls in Javascript
 
@@ -20,6 +20,7 @@ A functioning Pokedex!
 - Add Pokedex sounds
 
 # Work to be done (eventually)
+- Make responsive for mobile devices
 - Round corners and add a border to the top
 - Add more shading for realism
 - Make lights blink when user submits input
