@@ -12,9 +12,9 @@ A functioning Pokedex!
 
 # Work to be done (priority)
 - ~~Allow users to search Pokedex with a name or number~~ (11/27/2020)
-- ~~Functioning number buttons to allow user input~~
+- ~~Functioning number buttons to allow user input~~ (5/24/2019)
 - ~~Connect to [PokéAPI](https://pokeapi.co/) to update Pokemon image, name, description, and type based on user input~~ (11/27/2020)
-- ~~Add styling for when buttons are pressed or hovered~~
+- ~~Add styling for when buttons are pressed or hovered~~ (5/24/2019)
 - Handle invalid input
 - Implement better solution for caching (currently 'caching' with a hash)
 - Add Pokedex sounds
