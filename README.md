@@ -8,12 +8,16 @@ Pokedex layout has been built out with static placeholder details. Number button
 # What did I learn from this project?
 - How to make complex shapes only with CSS
 - Became more familiar with positioning and styling elements
+- Learned how to make API calls in Javascript
 
 # Work to be done (priority)
-- Allow users to search Pokedex with a name or number
+- ~~Allow users to search Pokedex with a name or number~~ (11/27/2020)
 - ~~Functioning number buttons to allow user input~~
-- Connect to [PokéAPI](https://pokeapi.co/) to update Pokemon image, name, description, and type based on user input
+- ~~Connect to [PokéAPI](https://pokeapi.co/) to update Pokemon image, name, description, and type based on user input~~ (11/27/2020)
 - ~~Add styling for when buttons are pressed or hovered~~
+- Handle invalid input
+- Implement better solution for caching (currently 'caching' with a hash)
+- Add Pokedex sounds
 
 # Work to be done (eventually)
 - Round corners and add a border to the top
