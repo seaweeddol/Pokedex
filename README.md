@@ -1,5 +1,6 @@
 # Overview
 Functional Pokedex built with HTML and CSS which connects to [PokéAPI](https://pokeapi.co/)
+
 https://seaweeddol.github.io/Pokedex/
 
 # Key skills gained from this project
